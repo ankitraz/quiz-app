@@ -33,8 +33,7 @@ play()
 
 
 while(True):
-    print("Do you want to play again?")
-    inp = input()
+    inp = input("Do you want to play again?")
     if inp != "yes":
         print("Thanks for playing.")
         break
